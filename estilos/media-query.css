@@ -9,6 +9,7 @@
     }
     section#login{
         width: 90vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -21,23 +22,58 @@
         float: right;
         width: 70%;
     }
+
+    div.campo > input{
+        background-color: #4fbeacf8;
+        font-size: 1em;
+        height: 100%;
+        width: 90%;
+        transform: translateY(-1px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    }
+
+    
 }
 
 @media screen and (min-width: 992px){
     section#login{
         width: 950px;
+        height: 360px;
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        margin: 20px 0px;
+    } 
+    
+    div.campo > input{
+        background-color: #4fbeacf8;
+        font-size: 1em;
+        height: 100%;
+        width: 90%;
+        transform: translateY(-1px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    }
 }
+
     
     
